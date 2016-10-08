@@ -37,6 +37,14 @@
         .carousel-indicators{
             bottom: 30px;
         }
+
+        #dropdown-disease li{
+            text-align: center;
+        }
+        #dropdown-disease li a{
+            font-size: 16px !important;
+
+        }
     </style>
 </head>
 <body>
@@ -72,17 +80,31 @@
         <div class="col-md-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    疾病分类
+                    疾病指标历史
                 </div>
                 <div class="panel-body">
+                    <div class="dropdown">
+                        <button class="btn btn-success btn-block dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                            选择疾病大类
+                            <span class="caret"></span>
+                        </button>
+                        <ul id="dropdown-disease" class="dropdown-menu text-center label-success btn-block">
+                            <li><a tabindex="-1" href="#">肝类疾病</a></li>
+                            <li><a tabindex="-1" href="#">心脑血管疾病</a></li>
+                            <li><a tabindex="-1" href="#">心脑血管疾病</a></li>
+                            <li><a tabindex="-1" href="#">心脑血管疾病</a></li>
+                        </ul>
+                    </div>
                     <ul class="nav nav-pills nav-stacked text-center" style="font-size: 18px;">
-                        <li><a href="#">肝类疾病</a></li>
-                        <li><a href="#">心脑血管疾病</a></li>
-                        <li><a href="#">XX疾病</a></li>
-                        <li><a href="#">XX疾病</a></li>
-                        <li><a href="#">XX疾病</a></li>
-                        <li><a href="#">XX疾病</a></li>
-                        <li><a href="#">XX疾病</a></li>
+                        <li><a href="#">总胆红素</a></li>
+                        <li><a href="#">血清白蛋白</a></li>
+                        <li><a href="#">总胆红素</a></li>
+                        <li><a href="#">血清白蛋白</a></li>
+                        <li><a href="#">总胆红素</a></li>
+                        <li><a href="#">血清白蛋白</a></li>
+                    </ul>
+                    <ul>
+
                     </ul>
                     <!--<table class="table table-striped table-bordered table-hover">-->
                         <!--<tbody>-->
@@ -95,7 +117,7 @@
             </div>
         </div>
         <div class="col-md-8">
-            <div class="panel panel-default" style="padding-bottom: 32px;">
+            <div class="panel panel-default" style="padding-bottom: 36px;">
                 <div class="panel-heading">
                     基本信息
                 </div>
