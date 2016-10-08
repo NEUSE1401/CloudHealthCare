@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>云医院体检中心诊断方案推荐系统</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        .carousel,
+        .item,
+        .active {
+            height: 100%;
+        }
+
+        .carousel-inner {
+            height: 100%;
+        }
+
+        .fill {
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+        }
+
+        footer {
+            margin: 50px 0;
+        }
+
+        .carousel-indicators{
+            bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">云医院体检中心诊断方案推荐系统</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <form class="navbar-form navbar-right" role="search">
+                <button type="submit" class="btn btn-default">登录</button>
+                <button type="submit" class="btn btn-success">注册</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">主页</a></li>
+                <li><a href="user.html">用户</a></li>
+                <li><a href="doctor.html">医生</a></li>
+                <li><a href="about.html">关于</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<header id="home-slider" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#home-slider" data-slide-to="0" class="active"></li>
+        <li data-target="#home-slider" data-slide-to="1"></li>
+        <li data-target="#home-slider" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for Slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="fill" style="background-image:url('img/home/3.jpg');"></div>
+            <div class="carousel-caption">
+                <h2>云医院体检中心诊断方案推荐系统</h2>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('img/home/1.jpg');"></div>
+            <div class="carousel-caption">
+                <h2>云医院体检中心诊断方案推荐系统</h2>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('img/home/2.jpg');"></div>
+            <div class="carousel-caption">
+                <h2>云医院体检中心诊断方案推荐系统</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#home-slider" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#home-slider" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+
+</header>
+
+<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">云医院</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <div class="nav navbar-nav navbar-right" style="line-height: 40px;">
+                东北大学大学生创新创业训练计划项目 2016-2017
+            </div>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
